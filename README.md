@@ -1,6 +1,6 @@
 # Developer-Landing-page
 > Designed a simple landing page for developer using HTML and TailwindCSS with responsive design.
-> Live demo [_here_](https://dance-home-page-orpin.vercel.app/).
+> Live demo [_here_](https://developer-landing-page-omega.vercel.app/).
 
 ## Table of Contents
 * [Technologies Used](#technologies-used)
