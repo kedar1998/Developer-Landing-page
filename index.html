@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Developer Landing Page</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+
+    <section id="navbar" class="bg-primary">
+
+        <nav class="relative container mx-auto flex items-center justify-between py-6 px-3">
+            <!-- LOGO -->
+            <div>
+                <img src="./images/Logo.png" alt="">
+            </div>
+
+            <!-- RIGHT CONTENT -->
+            <div class="hidden md:flex flex items-center space-x-10 font-bold md:text-lg text-white">
+                <a href="#">Home</a>
+                <a href="#">API</a>
+                <a href="#">Blogs</a>
+                <a href="#">Forums</a>
+                <a href="#">Login</a>
+                <a href="#" class="bg-white text-primary px-3 py-2 rounded-sm">Sign Up</a>
+            </div>
+
+            <!-- HAMBURGER -->
+            <div class="md:hidden block">
+                <button id="menu-btn" class="hamburger  z-50">
+                    <div class="hamburger-top z-50"></div>
+                    <div class="hamburger-middle"></div>
+                    <div class="hamburger-bottom z-50"></div>
+                </button>
+            </div>
+        </nav>
+        <!-- MENU -->
+            <div id="menu" class="hidden flex flex-col items-center space-y-10 fixed inset-0 opacity-100 bg-primary pt-20 text-white z-20 ">
+                <a href="#">Home</a>
+                <a href="#">API</a>
+                <a href="#">Blogs</a>
+                <a href="#">Forums</a>
+                <a href="#">Login</a>
+                <a href="#" class="bg-white text-primary px-3 py-2 rounded-sm">Sign Up</a>
+            </div>
+    </section>
+
+
+    <!-- HERO SECTOIN -->
+
+    <section id="hero" class="bg-primary relative py-4">
+
+        <div class="container mx-auto flex flex-col items-center lg:flex-row lg:h-96">
+            <!-- IMAGE BELOW LG -->
+            <div class="lg:hidden block">
+                <img src="./images/IMAGE HERE.png" alt="" class="h-60">
+            </div>
+            <!-- LEFT -->
+            <div class=" w-full lg:w-2/3 text-white my-auto my-5 px-2">
+                <div class="border-b-4 border-white w-14"></div>
+                <h1 class="text-3xl md:text-5xl mb-5 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, exercitationem?</h1>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, culpa!</p>
+            </div>
+
+
+            <!-- RIGHT -->
+            <div class="  lg:w-1/3">
+                <img src="./images/IMAGE HERE.png" alt="" class="absolute right-0 top-0 hidden lg:block">
+            </div>
+        </div>
+
+    </section>
+
+    
+    
+    <!-- Company Section -->
+
+    <section id="company" class="bg-secondary">
+            <div class="container mx-auto py-4 px-2">
+                <div class=" md:max-w-3xl flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-32  text-lg md:text-2xl font-bold">
+                    <h1>Company One</h1>
+                    <h1>Company Two</h1>
+                    <h1>Company Three</h1>
+                </div>
+            </div>
+    </section>
+
+
+
+    <!-- API CATEGORY -->
+
+    <section id="api" class="bg-secondary">
+
+        <div class="container mx-auto px-2 py-5 md:py-10">
+            <h1 class="text-center md:text-left text-3xl md:text-5xl font-bold mb-2">APIs</h1>
+            <h1 class="text-center md:text-left text-3xl md:text-5xl font-bold">by category</h1>
+
+            <!-- CARDS -->
+            <div class="mt-10 flex flex-col items-center md:flex-row md:space-x-5">
+                <!-- CARD - 1 -->
+                <div class="bg-white max-w-[250px] p-8 rounded-lg">
+                    <img src="./images/Group 97.png" alt="">
+                    <h1 class="font-bold text-xl md:text-2xl text-primary my-2">Identity & Security</h1>
+                    <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <!-- CARD - 2 -->
+                <div class=" max-w-[250px] p-8">
+                    <img src="./images/Group 98.png" alt="">
+                    <h1 class="font-bold text-xl md:text-2xl  my-2">Identity & Security</h1>
+                    <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <!-- CARD - 3 -->
+                <div class=" max-w-[250px] p-8">
+                    <img src="./images/Group 99.png" alt="">
+                    <h1 class="font-bold text-xl md:text-2xl  my-2">Identity & Security</h1>
+                    <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <!-- CARD - 4 -->
+                <div class=" max-w-[250px] p-8">
+                    <img src="./images/Group 100.png" alt="">
+                    <h1 class="font-bold text-xl md:text-2xl my-2">Identity & Security</h1>
+                    <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <!-- CARD - 5 -->
+                <div class=" max-w-[250px] p-8">
+                    <img src="./images/Group 101.png" alt="">
+                    <h1 class="font-bold text-xl md:text-2xl my-2">Identity & Security</h1>
+                    <p class="">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+
+                <!-- CARD - 6 -->
+                <div class=" max-w-[250px] p-8">
+                    <div>
+                        <img src="./images/next.png" alt="" class="hidden md:block h-16 w-36 bg-primary rounded-full" >
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- ARTICLE SECTION -->
+
+    <section id="article" class="bg-secondary py-4 px-2">
+
+        <div class="container mx-auto">
+            <div>
+                <h1 class="text-3xl md:text-5xl font-bold">Latest</h1>
+                <h1 class="text-3xl md:text-5xl font-bold">Blog Article</h1>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ARTICLE CARDS -->
+
+    <section id="article-cards" class="bg-secondary py-6 px-2">
+
+        <div class="container mx-auto flex flex-col md:flex-row md:space-x-5 md:space-y-0 space-y-5">
+
+            <!-- CARD - 1 -->
+            <div class="flex flex-col md:flex-row md:w-1/2 md:space-x-5 bg-white shadow-2xl md:rounded-l-full rounded-tl-[45px] p-2 md:p-0">
+                <!-- IMAGE -->
+                <div>
+                    <img src="./images/Rectangle.png" alt="" class="max-w-[200px] md:max-w-[400px] ">
+                </div>
+                <!-- CONTENT -->
+                <div class=" flex flex-col">
+                    <p class="text-primary font-bold mb-2 mt-2">05 Aug 2025</p>
+                    <h1 class="text-2xl md:text-3xl max-w-sm">Custom made loyalty program</h1>
+                    <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, sit saepe quaerat asperiores sed atque?</p>
+                    <div class="flex items-center mt-10 space-x-4">
+                        <img src="./images/IMAGE HERE (2).png" alt="">
+                        <div>
+                            <p>Bobby Wagner</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- CARD - 2 -->
+            <div class="flex flex-col md:flex-row md:w-1/2 md:space-x-5 bg-white shadow-2xl md:rounded-l-full rounded-tl-[45px] p-2 md:p-0">
+                <!-- IMAGE -->
+                <div>
+                    <img src="./images/Rectangle Copy.png" alt="" class="max-w-[200px] md:max-w-[400px] ">
+                </div>
+                <!-- CONTENT -->
+                <div class=" flex flex-col">
+                    <p class="text-primary font-bold mb-2 mt-2">05 Aug 2025</p>
+                    <h1 class="text-2xl md:text-3xl max-w-sm">You can travel with ease and structure</h1>
+                    <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, sit saepe quaerat asperiores sed atque?</p>
+                    <div class="flex items-center mt-10 space-x-4">
+                        <img src="./images/IMAGE HERE (2).png" alt="">
+                        <div>
+                            <p>Gloria Graham</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- QUESTION SECION -->
+
+    <section id="question" class="bg-[#e9edff] py-4 md:py-0 px-2">
+
+        <div class="container mx-auto flex flex-col md:flex-row items-center  justify-between">
+            <div class="max-w-xl">
+                <h1 class="text-4xl md:text-6xl mb-4">Have a question</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eos reprehenderit temporibus dolor minima! Soluta quam veritatis quisquam assumenda quis!</p>
+                <p class="my-4 text-xl md:text-2xl font-bold">Do you have question about anything?</p>
+                <button class="bg-primary px-8 py-3 text-white font-bold">Contact Us</button>
+            </div>
+            <img src="./images/Rectangle_38-2 (1).png" alt="" class=" hidden md:block">
+        </div>
+
+    </section>
+
+
+    <!-- DOWNLOAD -->
+
+    <section id="download" class="py-20">
+
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row items-center justify-between space-y-5 md:space-y-0">
+                <div>
+                    <h1 class="text-3xl md:text-5xl">Download Now</h1>
+                </div>
+                <div class="md:relative flex flex-col space-y-4 md:space-y-0">
+                    <input type="text" class="border-2 bg-[#e9edff] md:w-[500px] w-full h-10 outline-none border-none rounded-full w-full">
+
+                    
+                    <button class=" md:absolute top-0 right-0 bg-primary py-2 px-6 rounded-full">Download</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer id="footer" class="bg-primary px-2 py-8">
+        <div class="container mx-auto">
+            <!-- first line -->
+            <div class="flex flex-col md:flex-row space-y-5 md:space-y-0 justify-between items-center">
+                <div>
+                    <img src="./images/Logo.png" alt="">
+                </div>
+                <div class="flex space-x-4">
+                    <img src="./images/Group 102.png" alt="">
+                    <img src="./images/Group 103.png" alt="">
+                    <img src="./images/Group 104.png" alt="">
+                </div>
+            </div>
+
+            <!-- SECOND LINE -->
+            <div class="flex flex-col justify-between md:flex-row mt-10 text-white">
+                <div class="flex flex-col items-center md:flex-row md:space-y-0 space-y-5 md:space-x-10">
+                    <a href="#" class="md:border-r border-gray-400 pr-6">Home</a>
+                    <a href="#" class="md:border-r border-gray-400 pr-6">API</a>
+                    <a href="#" class="md:border-r border-gray-400 pr-6">Blogs</a>
+                    <a href="#" class="md:border-r border-gray-400 pr-6">Forums</a>
+                </div>
+                <div class="flex flex-col items-center md:flex-row md:space-y-0 space-y-5 md:space-x-10 mt-5">
+                    <a href="#" class="md:border-r border-gray-400 pr-6">FAQ</a>
+                    <a href="#" class="md:border-r border-gray-400 pr-6">Business</a>
+                    <a href="#" class="md:border-r border-gray-400 pr-6">Help</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
